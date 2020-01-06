@@ -208,7 +208,7 @@ set(COMPONENT_PRIV_INCLUDEDIRS cores/esp32/libb64)
 set(COMPONENT_REQUIRES spi_flash mbedtls mdns ethernet bt)
 set(COMPONENT_PRIV_REQUIRES fatfs nvs_flash app_update spiffs bootloader_support openssl bt)
 
-set(IDF_COMPILE_DEFINITIONS ARDUINO_ARCH_ESP32)
+set(IDF_COMPILE_DEFINITIONS ESP32 ARDUINO_ARCH_ESP32)
 
 register_component()
 
